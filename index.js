@@ -54,11 +54,11 @@ loadDataAsync = async function load() {
 };
 loadDataAsync();
 
-// 4. arrow function
+// 4. arrow functions
 sum = function (a, b) {
   return a + b;
 };
-console.log('--->  4. arrow function');
+console.log('--->  4. arrow functions');
 console.log(sum(6, 2));
 
 sum = (a, b) => a + b;
